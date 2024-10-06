@@ -2,6 +2,9 @@
 import mysql.connector
 
 
+# not a good practice at all avoid this!!
+# save passwords in secret managment only! 
+
 DB_CONFIG = {
     'host':'54.213.19.160',  # Replace with your EC2 public IP
     'user':'root',    # Replace with your MySQL username
